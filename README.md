@@ -1,3 +1,5 @@
+QOL: echo dir %1 > %systemroot%\system32\ls.bat
+
 Chocolatey:
 Run PowerShell as administrator >iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
 
